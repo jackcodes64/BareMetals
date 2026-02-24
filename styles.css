@@ -198,7 +198,7 @@ input:focus {
       rgba(0,0,0,0.6) 20%,
       rgba(0,0,0,0) 50%
     ),
-    url('/utilities/pcbbinary.webp') center/cover no-repeat;
+    url('utilities/pcbbinary.webp') center/cover no-repeat;
   height: 75vh;
   width: 100%;
   color: white;
@@ -387,7 +387,7 @@ nav ul {
       rgb(0, 30,60) 0%,
       rgba(0,0,0,0) 50%
     ),
-    url('/utilities/pcblayer.webp') center/cover no-repeat;
+    url('utilities/pcblayer.webp') center/cover no-repeat;
   height: 70vh;
   width: 100%;
   color: white;
