@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Load local JSON only once
   try {
-    const res = await fetch('/data/articles.json');
+    const res = await fetch('data/articles.json');
     posts = await res.json();
   } catch (err) {
     console.error('Failed to load local JSON:', err);
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       .slice(0, 5);
 
     resultsBox.innerHTML = matches
-      .map(item => `<a href="/articles/${item.slug}" class="result-item">${item.title}</a>`)
+      .map(item => `<a href="articles/${item.slug}" class="result-item">${item.title}</a>`)
       .join('');
   });
 });
