@@ -1176,11 +1176,15 @@ header nav ul{
   max-width: 20px;
 }
 .tableContentSponsor{
-  min-width: 90%;
-  max-width: 90%;
+  min-width: 95%;
+  max-width: 95%;
 }
 .tableContentSponsor .tableContent{
   order: -1;
+}
+.sponsor{
+    min-width: 100%;
+    margin-bottom: 5px;
 }
 #youMayLikePosts h3{
         width: 60%;
