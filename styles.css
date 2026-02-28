@@ -541,6 +541,8 @@ nav ul {
   max-width: 300px;
 }
 .tableContent{
+  min-width: 100px;
+  max-width: 300px;
   display: flex;
   align-items: center;
   flex-direction: column;
